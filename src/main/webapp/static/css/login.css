@@ -1,0 +1,188 @@
+/***
+Login page
+***/
+
+/* logo page */
+.login {
+    background: url("/static/images/bg.png") no-repeat center center;
+    background-size: 100% 300%;
+}
+
+.login .logo {
+    width: 550px;
+    margin: auto auto;
+    /* margin-top:10px;  */
+    /* margin-left: 0px; */
+    padding: 15px;
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+.login .content {
+    width: 735px;
+    background-color: rgba(255, 248, 248, 0.5);
+    mrgin: 0 auto;
+/ / margin-top: 10 px;
+/ / margin-bottom: 20 px;
+
+}
+
+.login .content h3 {
+    color: #000000;
+}
+
+.login .content h4 {
+    color: #555;
+}
+
+.login .content p {
+    color: #222;
+    float: left;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 25px;
+
+}
+
+.login .content .login-form,
+.login .content .forget-form {
+    padding: 0px;
+    margin: 0px;
+    margin-top: -90px;
+    position: relative;
+
+}
+
+.login .content .m-wrap {
+    width: 249px;
+    border-left: 0 !important;
+    border: none;
+}
+
+.login .content .input-icon {
+    border-left: 2px solid #35aa47 !important;
+    height: 35px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: #FBF5F5;
+    border: 1px solid #000;
+    border-radius: 7px !important;
+    margin-bottom: 35px;
+    /* background: url("../../images/blank_bg.png") no-repeat -333px center;
+    background-size:130% 1170%; */
+
+}
+
+.login .content.checkcode {
+    width: 50px;
+    border: 1px solid #000;
+    float: left;
+}
+
+.login .content .input-icon .m-wrap {
+    margin: 0px !important;
+}
+
+.login .content .forget-form {
+    display: none;
+}
+
+.login .content .register-form {
+    display: none;
+}
+
+.login .content .form-title {
+    font-weight: 100;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.login .content .form-actions {
+    clear: both;
+    border: 0px;
+    height: 10px;
+    /* border-bottom: 1px solid #eee; */
+    padding: 0px 30px 25px 30px;
+    margin-left: 27%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background: none;
+}
+
+.login .content .forget-form .form-actions {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.login .content .register-form .form-actions {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.login .content .form-actions .checkbox {
+    margin-top: 0px;
+    display: inline-block;
+    float: left;
+}
+
+.login .content .form-actions .btn {
+    margin-top: 0px;
+    margin-left: 40px;
+    float: left;
+}
+
+.login .content .forget-password {
+    margin-top: 0px;
+}
+
+.login .content .create-account {
+    border-top: 1px dotted #ffffff;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.login .content .create-account a {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.login .copyright {
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px 10px 0 10px;
+    color: #999;
+    font-size: 11px;
+    display: none;
+}
+
+@media (max-width: 480px) {
+    /***
+    Login page
+    ***/
+    .login .logo {
+        margin-top: 30px;
+    }
+
+    .login .content {
+        padding: 30px;
+        width: 222px;
+    }
+
+    .login .content h3 {
+        font-size: 22px;
+    }
+
+    .login .content .m-wrap {
+        width: 180px;
+    }
+
+    .login .checkbox {
+        font-size: 13px;
+    }
+}

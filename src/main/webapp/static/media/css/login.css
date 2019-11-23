@@ -1,0 +1,203 @@
+/***
+Login page
+***/
+
+/* logo page */
+.login {
+    width: 100%;
+    height: 100%;
+    background: url("../../images/bg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.content .logo {
+    width: 250%;
+    /* height:250px; */
+    position: absolute;
+    left: -75%;
+    top: -42%;
+}
+
+.login .content {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 400px;
+    height: 310px;
+    margin: 0 auto;
+    margin-top: 15%;
+    margin-bottom: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+.login .content h3 {
+    color: #000000;
+}
+
+.login .content h4 {
+    color: #555;
+}
+
+.login .content p {
+    color: #222;
+    float: left;
+    margin-left: 8%;
+    margin-right: 50%;
+    margin-bottom: 25px;
+
+}
+
+.login .content .login-form,
+.login .content .forget-form {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
+    /* margin-right:50%;  */
+    position: relative;
+    width: 735px;
+
+}
+
+.login .content .m-wrap {
+    width: 360px !important;
+    border-left: 0 !important;
+    border: none;
+
+}
+
+.login .content .input-icon {
+    border-left: 2px solid #35aa47 !important;
+    width: 360px;
+    height: 35px;
+    margin-left: 3%;
+    margin-right: 58%;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border: 1px solid #c0c0c0;
+    border-radius: 7px !important;
+    margin-bottom: 35px;
+    /* background: url("../../images/blank_bg.png") no-repeat -333px center;
+    background-size:130% 1170%; */
+
+}
+
+.login .content.checkcode {
+    /* width:60px; */
+    /* border: 1px solid #000; */
+    float: left;
+}
+
+.login .content .input-icon .m-wrap {
+    margin: 0px !important;
+
+}
+
+.login .content .forget-form {
+    display: none;
+}
+
+.login .content .register-form {
+    display: none;
+}
+
+.login .content .form-title {
+    /* font-weight: 100; */
+    margin-top: -80px;
+    margin-bottom: -20px;
+    text-align: center;
+    width: 400px;
+    float: left;
+}
+
+.login .content .form-actions {
+    clear: both;
+    border: 0px;
+    height: 10px;
+    /* border-bottom: 1px solid #eee; */
+    padding: 0px 30px 25px 30px;
+    margin-left: 4%;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    background: none;
+}
+
+.login .content .forget-form .form-actions {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.login .content .register-form .form-actions {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.login .content .form-actions .checkbox {
+    margin-top: 0px;
+    display: inline-block;
+    float: left;
+
+}
+
+.login .content .form-actions .btn {
+    margin-top: 60px;
+    margin-left: -15%;
+    width: 380px;
+    float: left;
+
+}
+
+.login .content .forget-password {
+
+    width: 430px;
+    margin-top: -14.5%;
+    margin-left: 17%;
+    float: left;
+}
+
+.login .content .create-account {
+    border-top: 1px dotted #ffffff;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.login .content .create-account a {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.login .copyright {
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px 10px 0 10px;
+    color: #999;
+    font-size: 11px;
+    display: none;
+}
+
+@media (max-width: 480px) {
+    /***
+    Login page
+    ***/
+    .login .logo {
+        margin-top: 30px;
+    }
+
+    .login .content {
+        padding: 30px;
+        width: 222px;
+    }
+
+    .login .content h3 {
+        font-size: 22px;
+    }
+
+    .login .content .m-wrap {
+        width: 180px;
+    }
+
+    .login .checkbox {
+        font-size: 13px;
+    }
+}
